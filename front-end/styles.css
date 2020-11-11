@@ -1,0 +1,94 @@
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text{
+padding:5px;
+margin: 15px;;
+}
+
+#submit{
+  padding:5px;
+  margin:15px;
+}
+
+
+
+#mylist {
+  border-style: solid;
+  border-color: black;
+  width: 350px;
+  height: 450px;
+}
+
+
+#info {
+/* border-style:solid; */
+/* border-color: blue; */
+width: 400px;
+height: 00px;
+padding: 20px;
+margin: 50px;
+font-family:"Comic Sans MS", cursive, sans-serif ;
+}
+
+#flag{
+  /* border-style:solid; */
+  /* border-color: red; */
+  width: 200px;
+  height: 120px;
+}
+
+
+/*APP DRAWER CSS*/
+
+.app_drawer {
+  position: absolute; /*Takes element out of the flow of the page */
+  top: 0;
+  left: 0;
+  z-index: 1;
+  min-height: 100%;
+  /* height: auto; */
+  width: 30.5%;
+  transform: translateX(-100%);
+  /* background-color: lightblue; */
+  background-image: url(../front-end/src/image_1.jpg);
+  background-size: cover;
+  transition: all 0.5s ease-in;
+  box-shadow: 1px 0 3px grey;
+}
+
+
+.app_drawer__title {
+  margin: 0.5em;
+}
+
+.app_drawer__button {
+  position: absolute;
+  z-index: 15;
+  top: 3%;
+  left: 3em;
+  border-radius: 50%;
+  /* border: 12px solid midnightblue;
+  background-color:skyblue; */
+  width: 5em;
+  height: 5em;
+  transition: all 0.5s ease-in;
+  outline: none;
+  background-image: url(https://media.giphy.com/media/QZmdM3gGzuACQMnh3L/giphy.gif);
+  background-position: center;
+  background-size: 116% 119%;
+  background-repeat: no-repeat;
+}
+
+.app_drawer--visible {
+  transform: translateX(0);
+}
+
+.app_drawer__button--visible{
+  transform: scale(0.6);
+  top: 0%;
+  left: 26%;
+}
