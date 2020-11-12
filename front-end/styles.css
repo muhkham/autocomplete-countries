@@ -54,7 +54,7 @@ font-family:"Comic Sans MS", cursive, sans-serif ;
   width: 30.5%;
   transform: translateX(-100%);
   /* background-color: lightblue; */
-  background-image: url(../front-end/src/image_1.jpg);
+  background-image: url(../front-end/assets/image_1.jpg);
   background-size: cover;
   transition: all 0.5s ease-in;
   box-shadow: 1px 0 3px grey;
